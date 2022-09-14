@@ -31,25 +31,3 @@ filterByGroupName("Orcshid");                                                 //
 // Bilgi edindiğim kaynaklar
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/group
 // https://stackoverflow.com/questions/14446511/most-efficient-method-to-groupby-on-an-array-of-objects
-
-//================================================================================================================================================================================================================================
-    // Denemeler
-    // const newObj = arr.reduce(function (acc, currentValue) {
-    //     if (!acc[currentValue[criteria]]) {
-    //         acc[currentValue[criteria]] = [];
-    //     }
-    //     acc[currentValue[criteria]].push(currentValue);
-
-    //     return acc;
-    // }, {});
-    // console.log(newObj);
-    // return newObj;
-
-
-    //         (currentValue.type !== null) {
-    //         acc[currentValue.type] = acc[currentValue.type] || [];
-    //         acc[currentValue.type].push(currentValue);
-    //     }
-    //     return acc;
-    // }, Object.create(null)
-    // )
